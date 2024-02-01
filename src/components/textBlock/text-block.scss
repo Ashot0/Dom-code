@@ -1,0 +1,24 @@
+.text-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	&__text {
+		color: #404040;
+		text-align: center;
+		font-family: 'Roboto Slab';
+		font-size: var(--text-fs-m);
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+	&__title {
+		color: #404040;
+		font-family: 'Roboto Slab';
+		font-size: var(--text-fs-l);
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		margin-bottom: var(--text-fs-xs);
+	}
+}

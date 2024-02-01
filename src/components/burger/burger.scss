@@ -1,0 +1,65 @@
+.menu-btn {
+	width: fit-content;
+	cursor: pointer;
+	padding: 10px;
+	position: relative;
+	z-index: 3;
+}
+
+.bar {
+	width: 30px;
+	height: 3px;
+	background-color: var(--Others-Text);
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.menu-btn.open .bar:nth-child(1) {
+	transform: rotate(-45deg) translate(-6.5px, 6px);
+}
+
+.menu-btn.open .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.menu-btn.open .bar:nth-child(3) {
+	transform: rotate(45deg) translate(-6.5px, -6px);
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay.open {
+	width: 100%;
+	z-index: 2;
+}
+
+.overlay ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 100px 0 0 50px;
+	text-align: left;
+}
+
+.overlay li {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.content {
+	padding: 20px;
+	margin-left: 300px;
+	transition: margin-left 0.5s;
+}
+
+.content.shifted {
+	margin-left: 0;
+}

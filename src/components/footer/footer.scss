@@ -1,0 +1,166 @@
+.footer {
+	background: var(--own);
+	padding: 40px 0;
+	width: 100%;
+	// position: relative;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__wrapper {
+		width: fit-content;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 17px;
+	}
+	&__text-block {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		max-width: 304px;
+	}
+	&__text-title {
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__text-line {
+		color: var(--Others-Text);
+		font-family: 'Roboto';
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+}
+
+@media (min-width: 1280px) {
+	.footer {
+		&__wrapper {
+			max-width: 1382px;
+			gap: 37px;
+		}
+		&__text-block {
+		}
+		&__text-block_1 {
+			order: 1;
+		}
+		&__text-block_2 {
+			order: 2;
+		}
+		&__text-block_3 {
+			order: 3;
+		}
+		&__text-block_4 {
+			order: 4;
+		}
+		&__text-block_5 {
+			order: 5;
+		}
+	}
+}
+@media (min-width: 1000px) and (max-width: 1279px) {
+	.footer {
+		&__wrapper {
+			max-width: 986px;
+		}
+		&__text-block_1 {
+			order: 1;
+		}
+		&__text-block_2 {
+			order: 2;
+		}
+		&__text-block_3 {
+			order: 3;
+		}
+		&__text-block_4 {
+			order: 5;
+		}
+		&__text-block_5 {
+			order: 4;
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 999px) {
+	.footer {
+		&__wrapper {
+			max-width: 748px;
+		}
+		&__text-block {
+			max-width: 232px;
+		}
+		&__text-block_1 {
+			order: 1;
+		}
+		&__text-block_2 {
+			order: 2;
+		}
+		&__text-block_3 {
+			order: 3;
+		}
+		&__text-block_4 {
+			order: 5;
+		}
+		&__text-block_5 {
+			order: 4;
+		}
+	}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	.footer {
+		&__wrapper {
+			max-width: 95%;
+			justify-content: center;
+		}
+		&__text-block {
+			width: fit-content;
+			max-width: 232px;
+		}
+		&__text-block_1 {
+			order: 1;
+		}
+		&__text-block_2 {
+			order: 2;
+		}
+		&__text-block_3 {
+			order: 3;
+		}
+		&__text-block_4 {
+			order: 4;
+		}
+		&__text-block_5 {
+			order: 5;
+		}
+	}
+}
+@media (max-width: 479px) {
+	.footer {
+		&__wrapper {
+			max-width: 95%;
+			justify-content: center;
+			align-items: center;
+		}
+		&__text-block {
+			width: 100%;
+		}
+		&__text-block_1 {
+			order: 1;
+		}
+		&__text-block_2 {
+			order: 3;
+		}
+		&__text-block_3 {
+			order: 2;
+		}
+		&__text-block_4 {
+			order: 5;
+		}
+		&__text-block_5 {
+			order: 4;
+		}
+	}
+}

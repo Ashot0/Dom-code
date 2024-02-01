@@ -1,0 +1,30 @@
+.line-component {
+	margin: 0 5%;
+	position: relative;
+	height: 12px;
+
+	&__line {
+		margin-top: 5px;
+		width: 100%;
+		height: 1px;
+		background: var(--colors-2);
+	}
+	&__dots {
+		padding: 0 16px;
+		position: absolute;
+		display: flex;
+		gap: 8px;
+		top: 0;
+		left: calc(50% - 42px);
+		background: var(--Others-Background);
+	}
+	&__dot {
+		width: 12px;
+		height: 12px;
+		border-radius: 160px;
+		background: var(--colors-2);
+		&_active {
+			background: var(--colors-1);
+		}
+	}
+}

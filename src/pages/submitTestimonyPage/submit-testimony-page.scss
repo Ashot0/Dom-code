@@ -1,0 +1,74 @@
+.submit-testimony-page {
+	background-color: var(--Others-Background);
+	padding-bottom: 1%;
+	&__title {
+		max-width: 1312px;
+		margin: 20px 7% 24px 7%;
+		color: var(--Others-Text);
+		text-align: center;
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__image {
+		margin: 0 auto;
+	}
+	&__form {
+		margin: 40px 7% 80px 7%;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+	&__form-input {
+		width: 60%;
+		background-color: #fff;
+		padding: 16px;
+		color: var(--Others-Text);
+		font-family: 'Roboto';
+		font-size: 16px;
+		font-weight: 400;
+	}
+	&__form-line {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__form-text {
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		&_red {
+			color: red;
+		}
+	}
+	&__form-title {
+		margin-bottom: 24px;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__form-button {
+		margin-top: 32px;
+		width: fit-content;
+		color: #fff;
+		text-align: center;
+		font-family: 'Roboto Slab';
+		font-size: 16px;
+		font-weight: 400;
+		border-radius: 4px;
+		opacity: 0.7;
+		background: var(--colors-1);
+		display: flex;
+		padding: 16px;
+		justify-content: center;
+		align-items: center;
+	}
+}

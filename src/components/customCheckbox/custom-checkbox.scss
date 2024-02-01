@@ -1,0 +1,50 @@
+.custom-checkbox {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.custom-checkbox input {
+	display: none;
+}
+
+.checkmark {
+	width: 20px;
+	height: 20px;
+	min-width: 20px;
+	min-height: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-right: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__label {
+		color: var(--Others-Text);
+		text-align: center;
+		font-family: 'Roboto Slab';
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
+
+.custom-checkbox input:checked + .checkmark {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.checkmark:after {
+	content: '';
+	width: 7px;
+	height: 10px;
+	border: solid #000000;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	display: none;
+}
+
+.custom-checkbox input:checked + .checkmark:after {
+	display: block;
+}

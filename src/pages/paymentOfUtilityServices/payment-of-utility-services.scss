@@ -1,0 +1,98 @@
+.payment-of-utility-services {
+	margin: 0 5% 78px 5%;
+	background-color: var(--Others-Background);
+	&__first-block {
+		display: flex;
+		margin: 0 0 80px 0;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	&__title {
+		margin-bottom: 24px;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__text {
+		max-width: 640px;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+	&__image {
+		width: 397px;
+		height: 381.616px;
+		flex-shrink: 0;
+	}
+	.payment-form {
+		padding: 32px 80px;
+		border-radius: 16px;
+		background: #c5edf6;
+		&__title {
+			margin-bottom: 24px;
+			color: var(--Others-Text);
+			font-family: 'Roboto Slab';
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		&__input {
+			padding: 16px;
+			border-radius: 8px;
+			width: 360px;
+			color: var(--Others-Text);
+			font-family: 'Roboto';
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		&__first-block {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 36px;
+		}
+		&__sum {
+			margin: 17px 0 8px 0;
+			color: var(--Others-Text);
+			font-family: 'Roboto';
+			font-size: 16px;
+			font-weight: 400;
+		}
+		&__button {
+			padding: 16px;
+			border-radius: 8px;
+			width: 360px;
+			color: var(--Others-Text);
+			font-family: 'Roboto';
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			background-color: inherit;
+			border: 1px solid var(--Others-Text);
+		}
+		&__send-button {
+			background-color: inherit;
+			margin-left: 271px;
+		}
+		&__checkbox {
+			margin-top: 20px;
+		}
+	}
+}
+@media (max-width: 480px) {
+	.payment-form__title {
+		font-size: 32px !important;
+	}
+}

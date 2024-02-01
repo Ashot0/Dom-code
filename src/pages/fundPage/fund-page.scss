@@ -1,0 +1,41 @@
+.fund-page {
+	&__wrapper {
+		margin: 42px 7% 80px 7%;
+	}
+	&__title {
+		color: var(--Others-Text);
+		text-align: center;
+		font-family: 'Roboto Slab';
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-bottom: 40px;
+	}
+	&__table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-top: 20px;
+		&__block {
+		}
+		th,
+		td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			color: var(--Others-Text);
+			font-family: 'Roboto Slab';
+			font-size: 16px;
+			text-align: center;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			height: 79px;
+			min-width: 77px;
+		}
+
+		th {
+			border: 1px solid #d3d3d3;
+			background: #e5e5e5;
+		}
+	}
+}

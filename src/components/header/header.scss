@@ -1,0 +1,94 @@
+.header {
+	overflow: hidden;
+	max-width: 1312px;
+	margin: 0 auto;
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px 2%;
+	color: var(--Others-Text);
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	&__logo {
+		margin: 0 7px 0 0;
+	}
+	&__navigation {
+		width: max-content;
+	}
+	&__navigation-list {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 36px;
+	}
+	&__buttons {
+		position: relative;
+		display: flex;
+		gap: 20px;
+	}
+	&__link {
+		text-wrap: nowrap;
+		color: var(--Others-Text);
+		&:hover {
+			color: var(--colors-1);
+		}
+	}
+	&__burger {
+		visibility: inherit;
+		display: none;
+	}
+	&__search {
+		padding: 10px;
+		height: 50px;
+		width: 50px;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.header {
+		padding: 32px 20px;
+		&__navigation-list {
+			gap: 24px;
+		}
+	}
+}
+@media all and (max-width: 768px) {
+	.header {
+		padding: 16px 26px 32px 14px;
+		&__navigation {
+			visibility: inherit;
+			display: none;
+		}
+		&__burger {
+			background-color: inherit;
+			visibility: visible;
+			display: block;
+		}
+	}
+}
+@media all and (max-width: 480px) {
+	.header {
+		padding: 10px;
+		&__logo {
+			width: 64px;
+			height: 64px;
+		}
+	}
+}
+@media all and (max-width: 320px) {
+	.header {
+		&__logo {
+			width: 48px;
+			height: 48px;
+		}
+	}
+}

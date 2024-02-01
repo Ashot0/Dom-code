@@ -1,0 +1,39 @@
+.reporting-page {
+	&__wrapper {
+		margin: 0 7% 80px 7%;
+		overflow: hidden;
+	}
+	&__line {
+		margin-top: 40px;
+	}
+	&__photos {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 26px;
+	}
+	&__photo {
+		img {
+			object-fit: cover !important;
+		}
+		width: 412px;
+		height: 526px;
+		min-width: 412px;
+		min-height: 526px;
+	}
+	&__title {
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin: 40px 0;
+	}
+}
+@media all and (max-width: 320px) {
+	.reporting-page {
+		&__title {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+.contacts-page {
+	margin: 40px 0 80px 0;
+	background-color: var(--Others-Background);
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	&__title {
+		margin: 0 7% 0 7%;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__title-h4 {
+		margin: 0 7% 0 7%;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__text-icon {
+		margin: 0 7% 0 7%;
+		display: flex;
+		gap: 12px;
+		align-items: center;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+	&__text {
+		margin: 0 7% 0 7%;
+		color: var(--Others-Text);
+		font-family: 'Roboto Slab';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+}
