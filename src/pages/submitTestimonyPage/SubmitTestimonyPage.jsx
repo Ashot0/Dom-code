@@ -3,7 +3,6 @@ import React from 'react';
 import './submit-testimony-page.scss';
 import HatLine from '../../components/hatLine/HatLine';
 import Image from '../../components/image/Image';
-import Source1 from './../../assets/mainPage/Fire.svg';
 
 const SubmitTestimonyPage = ({ className = '' }) => {
 	return (
@@ -13,7 +12,10 @@ const SubmitTestimonyPage = ({ className = '' }) => {
 				Показания принимаются с 23 по 25 число каждого месяца. Просим
 				ежемесячно передавать показания для корректных начислений.
 			</h2>
-			<Image className="submit-testimony-page__image" src={Source1} />
+			<Image
+				className="submit-testimony-page__image"
+				src="https://i.imgur.com/sP4OVX6.png"
+			/>
 			<form
 				className="submit-testimony-page__form"
 				action=""

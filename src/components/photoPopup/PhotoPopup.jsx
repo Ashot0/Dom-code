@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import './photo-popup.scss';
 import Image from '../image/Image';
-import Source from '../../assets/icons/X.svg';
 
 const PhotoPopup = ({ images, onClose }) => {
 	return (
@@ -22,7 +21,7 @@ const PhotoPopup = ({ images, onClose }) => {
 				))}
 			</Swiper>
 			<button className="close-btn" onClick={onClose}>
-				<Image src={Source} />
+				<Image src="https://i.imgur.com/MnA8oCQ.png" />
 			</button>
 		</div>
 	);

@@ -3,8 +3,6 @@ import React from 'react';
 import './text-block-float-image.scss';
 
 import Image from '../image/Image';
-import Source from '../../assets/icons/eye.svg';
-import SourceClock from '../../assets/icons/clock.svg';
 
 import LineComponent from '../lineComponent/LineComponent';
 
@@ -46,7 +44,7 @@ const TextBlockFloatImage = ({
 					<p className="text-block-float-image__date">
 						<Image
 							className="text-block-float-image__title-clock"
-							src={SourceClock}
+							src="https://i.imgur.com/t6c5YE6.png"
 						/>
 						{date}
 					</p>
@@ -62,7 +60,7 @@ const TextBlockFloatImage = ({
 			)}
 			{views ? (
 				<p className="text-block-float-image__views">
-					<Image className="" src={Source} />
+					<Image className="" src="https://i.imgur.com/8kk0ydo.png" />
 					{views}
 				</p>
 			) : (

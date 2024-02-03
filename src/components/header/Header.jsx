@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Image from '../image/Image';
-import logo from './../../assets/logo.svg';
-import Source from './../../assets/icons/search-dark.svg';
 import ScrollToTopButton from '../scrollToTopButton/ScrollToTopButton';
 
 import './header.scss';
@@ -13,7 +11,10 @@ const Header = ({ className = '' }) => {
 	return (
 		<header className={className + ' header'}>
 			<Link to="/">
-				<Image className="header__logo" src="logo.svg" />
+				<Image
+					className="header__logo"
+					src="https://i.imgur.com/baokXjD.png"
+				/>
 			</Link>
 			<nav className="header__navigation">
 				<ul className="header__navigation-list">
@@ -57,7 +58,10 @@ const Header = ({ className = '' }) => {
 			<ScrollToTopButton />
 			<div className="header__buttons">
 				<Burger className="header__burger" />
-				<Image className="header__search" src={Source} />
+				<Image
+					className="header__search"
+					src="https://i.imgur.com/kykm93W.png"
+				/>
 			</div>
 		</header>
 	);

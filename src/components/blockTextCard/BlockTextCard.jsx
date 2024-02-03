@@ -2,7 +2,6 @@ import React from 'react';
 
 import './block-text-card.scss';
 import Image from '../image/Image';
-import Source from '../../assets/icons/quotes.svg';
 import { Link } from 'react-router-dom';
 
 const BlockTextCard = ({ className = '', text, title, LinkHref = '', src }) => {
@@ -16,7 +15,7 @@ const BlockTextCard = ({ className = '', text, title, LinkHref = '', src }) => {
 							: 'block-text-card__quotes-text'
 					}
 				>
-					<Image src={Source} />
+					<Image src="https://i.imgur.com/Lyy1qUm.png" />
 					<p className="block-text-card__title">{title}</p>
 					<div className="block-text-card__line"></div>
 				</div>

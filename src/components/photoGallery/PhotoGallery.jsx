@@ -5,43 +5,27 @@ import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './photoGallery.scss';
 
-import Source1 from '../..//assets/photoPage/1.png';
-import Source2 from '../..//assets/photoPage/2.png';
-import Source3 from '../..//assets/photoPage/3.png';
-import Source4 from '../..//assets/photoPage/4.png';
-import Source5 from '../..//assets/photoPage/5.png';
-import Source6 from '../..//assets/photoPage/6.png';
-import Source7 from '../..//assets/photoPage/7.png';
-import Source8 from '../..//assets/photoPage/8.png';
-import Source9 from '../..//assets/photoPage/9.png';
-import Source10 from '../..//assets/photoPage/10.png';
-import Source11 from '../..//assets/photoPage/11.png';
-import Source12 from '../..//assets/photoPage/12.png';
-import Source13 from '../..//assets/photoPage/13.png';
-import Source14 from '../..//assets/photoPage/14.png';
-import Source15 from '../..//assets/photoPage/15.png';
-
 const PhotoGallery = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 	const [popupOpen, setPopupOpen] = useState(false);
 	const [activeIndex, setActiveIndex] = useState(0);
 
 	const images = [
-		Source1,
-		Source2,
-		Source3,
-		Source4,
-		Source5,
-		Source6,
-		Source7,
-		Source8,
-		Source9,
-		Source10,
-		Source11,
-		Source12,
-		Source13,
-		Source14,
-		Source15,
+		'https://i.imgur.com/90yOtqb.png',
+		'https://i.imgur.com/Ne93JU6.png',
+		'https://i.imgur.com/NLsQKTW.png',
+		'https://i.imgur.com/dGwl6Ej.png',
+		'https://i.imgur.com/J2NkBNp.png',
+		'https://i.imgur.com/3nrtqhB.png',
+		'https://i.imgur.com/dZFUkar.png',
+		'https://i.imgur.com/prRAC0N.png',
+		'https://i.imgur.com/YQLaDE3.png',
+		'https://i.imgur.com/akkloLg.png',
+		'https://i.imgur.com/fIPudCN.png',
+		'https://i.imgur.com/ffRn885.png',
+		'https://i.imgur.com/hpOzT00.png',
+		'https://i.imgur.com/Rf7huQm.png',
+		'https://i.imgur.com/wkTfNnq.png',
 	];
 
 	const openPopup = (index) => {

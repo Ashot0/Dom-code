@@ -2,8 +2,6 @@ import React from 'react';
 
 import Image from '../../components/image/Image';
 import './payment-of-utility-services.scss';
-import Source1 from './../../assets/paymentPage.svg';
-import Source2 from './../../assets/icons/ArrowLeft.svg';
 import CustomCheckbox from '../../components/customCheckbox/CustomCheckbox';
 
 const PaymentOfUtilityServices = ({ className = '' }) => {
@@ -20,7 +18,7 @@ const PaymentOfUtilityServices = ({ className = '' }) => {
 					с 15-го числа считается просроченной
 				</div>
 				<Image
-					src={Source1}
+					src="https://i.imgur.com/qxtnE5J.png"
 					className="payment-of-utility-services__image"
 				/>
 			</div>
@@ -54,7 +52,7 @@ const PaymentOfUtilityServices = ({ className = '' }) => {
 						Оплатить
 					</button>
 					<button className="payment-form__send-button" type="submit">
-						<Image src={Source2} />
+						<Image src="https://i.imgur.com/O8SIp5W.png" />
 					</button>
 				</div>
 				<CustomCheckbox

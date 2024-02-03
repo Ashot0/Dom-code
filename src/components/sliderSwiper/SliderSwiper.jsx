@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Pagination } from 'swiper/modules';
 import Image from '../image/Image';
-import Source from '../../assets/mainPage/photo1.svg';
 import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -22,7 +21,10 @@ const SliderSwiper = ({ className = '' }) => {
 		>
 			<SwiperSlide className="slider-swiper__slide">
 				<div className="slide-photo">
-					<Image className="slide-photo__image" src={Source} />
+					<Image
+						className="slide-photo__image"
+						src="https://i.imgur.com/66ISddV.png"
+					/>
 					<p className="slide-photo__text">
 						<p className="slide-photo__title">
 							Управляющая компания ООО УК «Дом»
@@ -38,7 +40,10 @@ const SliderSwiper = ({ className = '' }) => {
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="slide-photo">
-					<Image className="slide-photo__image" src={Source} />
+					<Image
+						className="slide-photo__image"
+						src="https://i.imgur.com/66ISddV.png"
+					/>
 					<p className="slide-photo__text">
 						<p className="slide-photo__title">
 							Управляющая компания ООО УК «Дом»
@@ -54,7 +59,10 @@ const SliderSwiper = ({ className = '' }) => {
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="slide-photo">
-					<Image className="slide-photo__image" src={Source} />
+					<Image
+						className="slide-photo__image"
+						src="https://i.imgur.com/66ISddV.png"
+					/>
 					<p className="slide-photo__text">
 						<p className="slide-photo__title">
 							Управляющая компания ООО УК «Дом»

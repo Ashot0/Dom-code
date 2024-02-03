@@ -4,7 +4,6 @@ import './about-us-page.scss';
 import HatLine from '../../components/hatLine/HatLine';
 import LineComponent from '../../components/lineComponent/LineComponent';
 import Image from '../../components/image/Image';
-import Source1 from './../../assets/mainPage/docs.png';
 
 const AboutUsPage = ({ className = '' }) => {
 	return (
@@ -77,7 +76,7 @@ const AboutUsPage = ({ className = '' }) => {
 					</p>
 				</div>
 				<div className="about-us-page__img-block">
-					<Image src={Source1} />
+					<Image src="https://i.imgur.com/dadQ1uS.png" />
 				</div>
 			</div>
 			<p className="about-us-page__text_m about-us-page__text">

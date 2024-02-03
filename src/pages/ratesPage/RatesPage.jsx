@@ -4,13 +4,15 @@ import './rates-page.scss';
 import HatLine from '../../components/hatLine/HatLine';
 import Image from '../../components/image/Image';
 import LineComponent from '../../components/lineComponent/LineComponent';
-import Source1 from './../../assets/mainPage/newsCards/52.png';
 
 const RatesPage = ({ className = '' }) => {
 	return (
 		<div className={className + ' rates-page'}>
 			<HatLine text="Тарифы ЖКХ на 2023 год" />
-			<Image className="rates-page__img" src={Source1} />
+			<Image
+				className="rates-page__img"
+				src="https://i.imgur.com/evIUsxv.png"
+			/>
 			<LineComponent className="rates-page__line" />
 			<a className="rates-page__link" href="#">
 				Тарифы жилищно-коммунальные услуги для населения города

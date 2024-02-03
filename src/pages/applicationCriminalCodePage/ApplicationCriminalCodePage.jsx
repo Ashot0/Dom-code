@@ -3,7 +3,6 @@ import React from 'react';
 import './application-criminal-code-page.scss';
 import HatLine from '../../components/hatLine/HatLine';
 import Image from '../../components/image/Image';
-import Source1 from './../../assets/mainPage/newsCards/7q.png';
 
 const ApplicationCriminalCodePage = ({ className = '' }) => {
 	return (
@@ -12,7 +11,7 @@ const ApplicationCriminalCodePage = ({ className = '' }) => {
 
 			<Image
 				className="application-criminal-code-page__image"
-				src={Source1}
+				src="https://i.imgur.com/eyoT0P4.png"
 			/>
 			<p className="application-criminal-code-page__text">
 				<h2 className="application-criminal-code-page__title">

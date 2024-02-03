@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import './scroll-to-top-button.scss';
 
 import Image from '../image/Image';
-import Source from '../../assets/icons/Arrow.svg';
 
 const ScrollToTopButton = ({ className }) => {
 	const [isVisible, setIsVisible] = useState(false);
@@ -31,7 +30,7 @@ const ScrollToTopButton = ({ className }) => {
 		<div className={className + ' scroll-to-top-button'}>
 			{isVisible && (
 				<div className="scroll-to-top-btn show" onClick={scrollToTop}>
-					<Image src={Source} />
+					<Image src="https://i.imgur.com/Wnupu8C.png" />
 				</div>
 			)}
 		</div>
