@@ -23,6 +23,7 @@ const App = () => {
 		<Router>
 			<Header />
 			<Routes basename="/Dom">
+				<Route path="*" element={<MainPage />} />
 				<Route path="/" element={<MainPage />} />
 				<Route path="/news" element={<NewsPage />} />
 				<Route path="/photo" element={<PhotoPage />} />

@@ -41,8 +41,8 @@ const PhotoGallery = () => {
 		<div className="photoGallery">
 			<Swiper
 				onSwiper={setThumbsSwiper}
-				spaceBetween={10}
-				slidesPerView={4}
+				spaceBetween={0}
+				slidesPerView={1}
 				freeMode
 				watchSlidesVisibility
 				watchSlidesProgress

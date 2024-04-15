@@ -90,6 +90,9 @@
 }
 @media all and (max-width: 768px) {
 	.main-page {
+		&__service-cards {
+			justify-content: center;
+		}
 		&__service-card {
 			max-width: 480px !important;
 			width: 480px;

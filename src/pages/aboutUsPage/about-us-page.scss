@@ -2,6 +2,7 @@
 	background-color: var(--Others-Background);
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 	gap: 40px;
 	margin-bottom: 40px;
 	&__block {

@@ -37,6 +37,12 @@
 	object-fit: cover;
 	border: 2px solid #fff;
 	cursor: pointer;
+	pointer-events: all;
+}
+@media all and (max-width: 768px) {
+	.thumbImage {
+		pointer-events: none;
+	}
 }
 
 .swiper-button-next,
