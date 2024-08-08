@@ -58,10 +58,6 @@ const Header = ({ className = '' }) => {
 			<ScrollToTopButton />
 			<div className="header__buttons">
 				<Burger className="header__burger" />
-				<Image
-					className="header__search"
-					src="https://i.imgur.com/kykm93W.png"
-				/>
 			</div>
 		</header>
 	);

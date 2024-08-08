@@ -3,17 +3,21 @@
 	display: flex;
 	max-width: 276px;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	flex-shrink: 0;
 	align-self: stretch;
 	text-align: center;
 	font-family: 'Roboto Slab';
+	position: relative;
 	&__image {
-		max-width: 120px;
-		margin-bottom: 20px;
+		transform: translate(-50%);
+		width: 120px;
+		height: 120px;
+		object-fit: cover;
+		position: absolute;
 	}
 	&__title {
+		padding-top: 130px;
 		color: var(--others-text);
 		font-size: var(--text-fs-m);
 		font-weight: 400;
